@@ -2,15 +2,15 @@ require "rspec"
 
 class Babysitter
   def first_shift(end_time, start_time)
-    first_shift = (end_time - start_time) * 12
+    (end_time - start_time) * 12
   end
 
   def second_shift(end_time, start_time)
-    second_shift = (end_time - start_time) * 8
+    (end_time - start_time) * 8
   end
 
   def third_shift(end_time, start_time)
-    third_shift = (end_time - start_time) * 16
+    (end_time - start_time) * 16
   end
 end
 
